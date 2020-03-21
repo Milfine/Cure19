@@ -9,7 +9,7 @@ export class GameService {
 
   districts: District[] = [
     {
-      id:         0,
+      id:         1,
       name:       'Dolnośląskie',
       residents:  1000,
       cases:      0,
@@ -18,7 +18,7 @@ export class GameService {
       policies:   []
     },
     {
-      id:         1,
+      id:         2,
       name:       'Kujawsko-Pomorskie',
       residents:  1000,
       cases:      0,
@@ -27,22 +27,26 @@ export class GameService {
       policies:   []
     },
     {
-      id:         2,
+      id:         3,
       name:       'Lubelskie',
       residents:  1000,
-      cases:      0,
-      deaths:     0,
-      recovered:  0,
+      cases:      134,
+      deaths:     2,
+      recovered:  7,
       policies:   []
     }
   ];
 
   getNames() {
     return [
-      this.districts[0].name,
-      this.districts[1].name,
-      this.districts[2].name
+      [1, this.districts[0].name],
+      [2, this.districts[1].name],
+      [3, this.districts[2].name]
     ]
+  }
+
+  getDistrict(value) {
+    return this.districts[value];
   }
 
 

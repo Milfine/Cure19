@@ -13,10 +13,15 @@ export class GameHomeComponent implements OnInit {
     private gameService: GameService
   ) {}
 
-  districtNames: string[];
+  districtNames: (string | number)[][];
+  districtSelected: number;
 
   ngOnInit(): void {
     this.districtNames = this.gameService.getNames();
+  }
+
+  onSelect(value) {
+    this.districtSelected = value;
   }
 
 }

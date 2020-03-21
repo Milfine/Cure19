@@ -1,5 +1,9 @@
 <app-game-navbar></app-game-navbar>
-<app-game-details></app-game-details>
-<ul *ngFor="let name of districtNames">
-    <li class="text-white">{{ name }}</li>
-</ul>
+<app-game-details *ngIf="districtSelected" [id]="districtSelected"></app-game-details>
+<div class="container-fluid" style="margin-top: 80px">
+    <div class="row">
+        <ul class="">
+            <li *ngFor="let district of districtNames" class="text-white" (click)="onSelect(district[0])">{{ district[1] }}</li>
+        </ul>
+    </div>
+</div>
