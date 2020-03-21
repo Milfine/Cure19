@@ -1,0 +1,16 @@
+.background-dark {
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 50px;
+}
+
+.background-dark .icon {
+    color: #7C7C7C;
+}
+.background-dark .value {
+    color: #92DBBC;
+}
+
+.background-primary {
+    background: linear-gradient(259.37deg, #EFD700 3.25%, #E1B200 95.21%);
+    border-radius: 50px;
+}

@@ -1,0 +1,38 @@
+.background-dark {
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 15px;
+}
+
+p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.text-cases {
+    color: #FFE600;
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+.text-deaths {
+    color: #EF6262;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.text-recovered {
+    color: #6FE2D5;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #EF6262;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+button .state {
+    color: white;
+}
