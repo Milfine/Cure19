@@ -8,6 +8,8 @@ import { StartMapComponent } from './start-map/start-map.component';
 import { GameHomeComponent } from './game-home/game-home.component';
 import { GameNavbarComponent } from './game-navbar/game-navbar.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
+import { GameActionsComponent } from './game-actions/game-actions.component';
+import { PoliciesDashboardComponent } from './policies-dashboard/policies-dashboard.component';
 
 const appRoutes: Routes = [
   { path: '', component: StartScreenComponent },
@@ -23,7 +25,9 @@ const appRoutes: Routes = [
     StartMapComponent,
     GameHomeComponent,
     GameNavbarComponent,
-    GameDetailsComponent
+    GameDetailsComponent,
+    GameActionsComponent,
+    PoliciesDashboardComponent
   ],
   imports: [
     RouterModule.forRoot(

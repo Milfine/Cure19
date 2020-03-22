@@ -1,0 +1,15 @@
+.background-policies {
+    background-color: rgba(32, 36, 39, 0.8);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+
+.back-button {
+    color: rgba(255, 255, 255, 0.7);
+}

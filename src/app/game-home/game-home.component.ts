@@ -24,4 +24,8 @@ export class GameHomeComponent implements OnInit {
     this.districtSelected = value;
   }
 
+  onOpen() {
+    
+  }
+
 }

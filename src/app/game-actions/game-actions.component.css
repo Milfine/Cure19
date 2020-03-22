@@ -1,0 +1,15 @@
+.action-button {
+    width: 60px;
+    bottom: 0;
+    left: 15px;
+    color: white;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    z-index: 10;
+}
+.background-dark {
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+}
